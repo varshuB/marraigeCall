@@ -1,0 +1,148 @@
+<div>
+    <app-header></app-header>
+
+    <!-- Search -->
+
+    <!-- main-content start here -->
+
+    <div class="tabs-section">
+        <div class="row">
+            <div class="col-lg-12">
+
+            </div>
+            <div class="col-lg-8 tabs">
+                <button class="tablink tab-active" onclick="openPage('Quick-Search',this,'tab-active')"
+                    id="defaultOpen">Quick Search</button>
+                <button class="tablink" onclick="openPage('Basic-Search',this,'tab-active')">Basic Search</button>
+                <button class="tablink" onclick="openPage('Advanced-Search',this,'tab-active')">Advanced Search</button>
+                <button class="tablink" onclick="openPage('Keyword-Search',this,'tab-active')">Keyword Search</button>
+                <button class="tablink" onclick="openPage('Location-Search',this,'tab-active')">Location Search</button>
+                <button class="tablink" onclick="openPage('Occupation-Search',this,'tab-active')">Occupation
+                    Search</button>
+                <!-- <button class="tablink" onclick="openPage('Contact')">Quick Search</button>
+            <button class="tablink" onclick="openPage('About')">Quick Search</button> -->
+
+                <div id="Quick-Search" class="tabcontent">
+                    <h1>Quick Search</h1>
+                    <div class="search-inputs-section">
+                        <label>Looking For</label>
+                        <select class="form-select form-select-sm" aria-label="Small select example">
+                            <option selected>Bride</option>
+                            <option value="1">Groom</option>
+                            <!-- <option value="2">Two</option>
+            <option value="3">Three</option> -->
+                        </select>
+                    </div>
+                    <div class="search-inputs-section">
+                        <label>Age</label>
+                        <select class="form-select form-select-sm age-select" aria-label="Small select example">
+                            <option selected>18 Years</option>
+                            <option>19 Years</option>
+                            <option>20 Years</option>
+                            <option>21 Years</option>
+                            <option>22 Years</option>
+                            <option>23 Years</option>
+                            <option>24 Years</option>
+                            <option>25 Years</option>
+                            <!-- <option value="2">Two</option>
+            <option value="3">Three</option> -->
+                        </select>
+                        <!-- <label>To</label> -->
+                        <p>To</p>
+                        <select class="form-select form-select-sm age-select" aria-label="Small select example">
+                            <option selected>18 Years</option>
+                            <option>19 Years</option>
+                            <option>20 Years</option>
+                            <option>21 Years</option>
+                            <option>22 Years</option>
+                            <option>23 Years</option>
+                            <option>24 Years</option>
+                            <option>25 Years</option>
+                            <!-- <option value="2">Two</option>
+            <option value="3">Three</option> -->
+                        </select>
+
+                    </div>
+                    <div class="search-inputs-section">
+                        <label>Religion</label>
+                        <select class="form-select form-select-sm" aria-label="Small select example">
+                            <option selected>Buddhist</option>
+                            <option value="1">Cristian</option>
+                            <option value="2">Hindu</option>
+                            <option value="3">jewish</option>
+                            <!-- <option value="2">Two</option>
+            <option value="3">Three</option> -->
+                        </select>
+                    </div>
+                    <div class="search-inputs-section">
+                        <label>Caste</label>
+                        <select class="form-select form-select-sm" aria-label="Small select example">
+                            <option selected>Caste</option>
+                            <option value="1">Munnurukapu</option>
+                            <option value="2">Reddy</option>
+                            <option value="3">Nayudus</option>
+                            <!-- <option value="2">Two</option>
+            <option value="3">Three</option> -->
+                        </select>
+                    </div>
+                    <div class="search-button">
+                        <button>Search Now</button>
+                    </div>
+                </div>
+                <div id="Basic-Search" class="tabcontent">
+                    <h1>Basic section</h1>
+                </div>
+                <div id="Advanced-Search" class="tabcontent">
+                    <h1>Advanced section</h1>
+                </div>
+                <div id="Keyword-Search" class="tabcontent">
+                    <h1>Keyword section</h1>
+                </div>
+                <div id="Location-Search" class="tabcontent">
+                    <h1>Location section</h1>
+                </div>
+                <div id="Occupation-Search" class="tabcontent">
+                    <h1>Occupation section</h1>
+                </div>
+
+
+
+
+            </div>
+            <div class="col-lg-3 search-by-id">
+                <div class="card">
+                    <div class="card-header">
+                        Search by Id
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <label>Gender</label>
+                            <select class="form-select form-select-sm" aria-label="Small select example">
+                                <option selected>Male</option>
+                                <option value="1">Female</option>
+                                <!-- <option value="2">Two</option>
+                        <option value="3">Three</option> -->
+                            </select>
+                        </div>
+                        <div>
+                            <label>Enter Id</label>
+                            <input class="form-control form-control-sm" type="text" placeholder="Enter Your id Here"
+                                aria-label=".form-control-sm example">
+                        </div>
+                        <div class="search-button">
+                            <button>Search Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- main-content end here -->
+
+    <!-- Search -->
+
+    <app-footer></app-footer>
+</div>

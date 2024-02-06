@@ -1,0 +1,74 @@
+<!-- navbar start -->
+
+<nav class="navbar navbar-expand-lg bg-color  fixed-top" id="nav-bar">
+    <div class="container">
+
+        <a class="navbar-brand" href="#"><img src="../../assets/images/main-logos/main-logo-removebg-preview.png"
+                width="90px" height="50px"></a>
+        <!-- nav toggle button -->
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <!-- nav responsive menu -->
+            <div class="offcanvas-header text-white border-bottom">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+
+            <!-- nav menu items start -->
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                    <li class="nav-item  mx-2">
+                        <a class="nav-link active-nav" aria-current="page" routerLink="/main"> <span
+                                class="material-symbols-outlined">
+                                home
+                            </span> Home</a>
+                    </li>
+
+                    <li class="nav-item mx-2 dropdown">
+                        <a class="nav-link dropdown-toggle" routerLink="/search" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span class="material-symbols-outlined">
+                                search
+                            </span> Search
+                        </a>
+                        <ul class="dropdown-menu">
+                            <!-- <li><a class="dropdown-item" routerLink="/search">Quick Search</a></li> -->
+                            <li><a class="dropdown-item">Quick Search</a></li>
+                            <li><a class="dropdown-item">Basic Search</a></li>
+                            <li><a class="dropdown-item">Advanced Search</a></li>
+                            <li><a class="dropdown-item">Keyword Search</a></li>
+                            <li><a class="dropdown-item">Location Search</a></li>
+                            <li><a class="dropdown-item">Occupation Search</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="./careers.html"><span class="material-symbols-outlined">
+                                card_membership
+                            </span>Membership</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="./contact-us.html"><span class="material-symbols-outlined">
+                                call
+                            </span>Contact Us</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="./contact-us.html"><span class="material-symbols-outlined">
+                                passkey
+                            </span>Login/Register</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- nav menu items end -->
+        </div>
+    </div>
+</nav>
+
+<!-- nav-bar end -->
